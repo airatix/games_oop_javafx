@@ -17,7 +17,6 @@ import ru.job4j.puzzle.firuges.Block;
 import ru.job4j.puzzle.firuges.Cell;
 import ru.job4j.puzzle.firuges.Checker;
 import ru.job4j.puzzle.firuges.Figure;
-
 import java.util.Random;
 
 public class Puzzle extends Application {
