@@ -11,6 +11,7 @@ public class Win {
             for (int cell : board[row]) {
                 if (cell != 1) {
                     rsl = false;
+                    break;
                 }
             }
             if (rsl) {
@@ -26,6 +27,7 @@ public class Win {
             for (int[] row : board) {
                 if (row[column] != 1) {
                     rsl = false;
+                    break;
                 }
             }
             if (rsl) {
